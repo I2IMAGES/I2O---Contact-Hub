@@ -10,14 +10,14 @@ export const ASSETS = {
   LOGO: "https://placehold.co/400x400/ffffff/1d4ed8?text=I2O&font=montserrat", 
   
   // Generating real QR codes for visual demonstration
-  // 1. Website (Black)
-  QR_WEBSITE: "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://example.com/website&color=000000&margin=10",
+  // 1. Website (Black) -> https://i2o-main-site-th6l.bolt.host
+  QR_WEBSITE: "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://i2o-main-site-th6l.bolt.host&color=000000&margin=10",
   
-  // 2. Portfolio (Blue - matching tailwind blue-700)
-  QR_PORTFOLIO: "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://example.com/portfolio&color=1d4ed8&margin=10",
+  // 2. Portfolio (Blue - matching tailwind blue-700) -> https://portfolio.inward2onward.com
+  QR_PORTFOLIO: "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://portfolio.inward2onward.com&color=1d4ed8&margin=10",
   
-  // 3. Booking (Dark Blue - matching tailwind blue-900)
-  QR_BOOKING: "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://example.com/booking&color=1e3a8a&margin=10" 
+  // 3. Booking (Dark Blue - matching tailwind blue-900) -> https://calendly.com/ej--33/clarity-audit
+  QR_BOOKING: "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://calendly.com/ej--33/clarity-audit&color=1e3a8a&margin=10" 
 };
 
 export const COMPANY_INFO: CompanyInfo = {
