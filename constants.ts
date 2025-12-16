@@ -6,8 +6,8 @@ import { QRCodeItem, CompanyInfo } from "./types";
  * You can host your images on services like Imgur, AWS S3, or within your project's public folder.
  */
 export const ASSETS = {
-  // Placeholder for Logo (White background with Blue text)
-  LOGO: "https://placehold.co/400x400/ffffff/1d4ed8?text=I2O&font=montserrat", 
+  // Generated SVG Data URI for "I2O" logo to ensure visibility and fast loading
+  LOGO: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MDAgNDAwIj48cmVjdCB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcng9IjgwIiBmaWxsPSIjZmZmZmZmIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZm9udC1zaXplPSIxODAiPjx0c3BhbiBmaWxsPSIjMWQ0ZWQ4Ij5JPC90c3Bhbj48dHNwYW4gZmlsbD0iIzFlM2E4YSI+MjwvdHNwYW4+PHRzcGFuIGZpbGw9IiMxZDRlZDgiPk88L3RzcGFuPjwvdGV4dD48L3N2Zz4=", 
   
   // Generating real QR codes for visual demonstration
   // 1. Website (Black) -> https://i2o-main-site-th6l.bolt.host
