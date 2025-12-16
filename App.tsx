@@ -21,7 +21,7 @@ const App: React.FC = () => {
         {/* Introduction / Instruction Text */}
         <div className="text-center max-w-2xl mx-auto mb-16 animate-fade-in-up">
             <p className="text-xl md:text-2xl text-slate-700 font-light leading-relaxed">
-                Thank you for joining our presentation. <br/>
+                Thank you for joining our 3G presentation. <br/>
                 <span className="font-semibold text-slate-900">Scan the codes below</span> to connect with us further.
             </p>
         </div>
